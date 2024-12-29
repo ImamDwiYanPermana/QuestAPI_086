@@ -1,5 +1,6 @@
 package com.example.h12.repository
 
+import com.example.h12.data.Mahasiswa
 
 
 interface MahasiswaRepository{
