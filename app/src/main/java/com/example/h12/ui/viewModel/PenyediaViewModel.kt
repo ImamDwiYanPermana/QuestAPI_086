@@ -10,6 +10,8 @@ object PenyediaViewModel{
     val Factory = viewModelFactory {
         initializer { HomeViewModel(aplikasiMahasiswa().container.mahasiswaRepository) }
         initializer { InsertViewModel(aplikasiMahasiswa().container.mahasiswaRepository) }
+        initializer { DeleteViewModel(aplikasiMahasiswa().container.mahasiswaRepository) }
+        initializer { UpdateViewModel(aplikasiMahasiswa().container.mahasiswaRepository) }
     }
 }
 
